@@ -27,6 +27,12 @@ ul {padding-left: 0;}
 /*Add space between sections*/
 section+section { margin-top: 50px; }
 
+header {
+	padding: 40px 0;
+	text-align: center;
+	background-color: #4481c3;
+}
+
 .block-heading {
 	background-image: url("../images/titleBorder.png");
 	background-repeat: repeat-x;
@@ -68,7 +74,9 @@ section+section { margin-top: 50px; }
 	padding: 10px 0;
 
 }
-#top .contact-action { margin-bottom: 0; }
+#top .contact-action { 
+	margin-top: 2px;
+}
 #top p i {
 	font-size: 16px;
 	margin-right: 10px;
@@ -90,12 +98,11 @@ section+section { margin-top: 50px; }
 	color: #555;
 }
 #top .login-lang li a i {
-	margin-right: 3px;
+	margin: 7px;
 }
-header {
-	padding: 40px 0;
-	text-align: center;
-	background-color: #4481c3;
+.dropdown-lang {
+	padding: 4px 0;
+	border-radius: 5px;
 }
 
 /*	Search Box Start
